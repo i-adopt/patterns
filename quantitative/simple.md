@@ -1,5 +1,5 @@
-# Simple Variable VDP
+# VDP Simple Variable
 
-The Simple Variable VPD is constituted by only the **property** and the **object of interest**.
+Simple variables are constituted by only the **property** and the **object of interest**.
 
 ![simple](gfx/simple.JPG)
