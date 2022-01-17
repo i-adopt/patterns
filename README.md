@@ -3,12 +3,3 @@ I-ADOPT Variable Design Patterns (VDPs) are implementation guidelines for modell
 # VDP Catalogue
 * [VDPs for quantitative variables](quanitative/ReadMe.md)
 * [VDPs for qualitative variables](qualitative)  
-
-***VDPs for quantitative variables***
-* [Simple Variable](simple.md)
-* [Complex Property](complex_property.md)
-* [Complex Object of Interest](complex_OOI.md)  
-
-***VDPs for qualitative variables***
-* [Boolean Variable](boolean)
-* [Qualitative Biology Variable](quantitative_biology)
