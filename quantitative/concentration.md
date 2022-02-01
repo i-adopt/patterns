@@ -3,3 +3,5 @@ Variables with this pattern are constituted at least by a property, an object of
 ![concentration](gfx/concentration.JPG)
 A specific case of mass concentration is density, which does not involve any matrix. 
 ![density](gfx/density1.JPG)
+A more elaborated case of mass concentration involves biota, which includes more components in the description. 
+![concentrationbiota](gfx/concentrationbiota.JPG)
