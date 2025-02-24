@@ -14,7 +14,7 @@ Suggestion on how to add additional description components as extensions of I-AD
 
 ## Considered Options
 
-### Option A: [PLUS extension]
+### Option A: PLUS extension
 
 ![I-ADOPT Plus](002/I-ADOPT_plus.jpg)
 
@@ -32,7 +32,7 @@ In EnvThes we have added for now these extensions:
 * **Cons**
   * not standardised which object properties should be used, but we could write guidelines
 
-### Option B: [Complementing I-ADOPT with ISO 19131 ]
+### Option B: Complementing I-ADOPT with ISO 19131 
 
 By using ISO 19131 - Data Product Specification (DPS), requirements for products description can be taken into account.
 
@@ -45,7 +45,7 @@ By using ISO 19131 - Data Product Specification (DPS), requirements for products
 * **Cons**
   * what are the object properties that can be used for these relationships captured in the UML?
     
-### Option C: [Constrain on Property]
+### Option C: Constrain on Property
 Suggestion on how to add additional description components as constrains of the property
 
 This approach would require to model a variable using constrains of the property. 
