@@ -10,6 +10,7 @@ If you like to suggest new VDPs we invite you to publish a new issue. The I-ADOP
 
 * [VDPs for quantitative variables](quantitative/)
 * [VDPs for qualitative variables](qualitative/)
+* [VDPs for distance variables](https://github.com/i-adopt/patterns/tree/main/adrs#vdps-for-distance-variables)
 
 # Decisions
 
