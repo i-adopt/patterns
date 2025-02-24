@@ -1,4 +1,4 @@
-# [I-ADOPT PLUS]
+# I-ADOPT PLUS
 
 * Status: proposed
 * Date: 2025-02-24
@@ -24,6 +24,8 @@ In EnvThes we have added for now these extensions:
 * https://w3id.org/env/puv#usesMethod for adding a method
 * https://w3id.org/env/puv#uom for adding the used unit
 * http://www.w3.org/ns/sosa/madeBySensor for adding the instrument
+
+[I-ADOPT PLUS implemented in Envthes](003-I-ADOPT_PLUS.md)
 
 * **Pros**:
   * easy to implement
