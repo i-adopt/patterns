@@ -8,10 +8,18 @@ If you like to suggest new VDPs we invite you to publish a new issue. The I-ADOP
 
 # VDP Catalogue
 
-* [VDPs for quantitative variables](quantitative/)
+* [quantitative](quantitative/)
+    * [simple](quantitative/simple.md)
+    * [complex property](quantitative/complexproperty.md)
+    * [concentration](quantitative/concentration.md)
 * [VDPs for qualitative variables](qualitative/)
-* [VDPs for distance variables](https://github.com/i-adopt/patterns/tree/main/adrs#vdps-for-distance-variables)
+    * [biological](qualitatitve/biological.md)
+    * [biological](qualitatitve/boolean.md)
+
 
 # Decisions
 
 Some of the patterns are preceded by an extensive discussion. The options discussed along each one's pros and cons as well as the final decisions are documented in [application design records](./adrs/).
+
+* [distance](https://github.com/i-adopt/patterns/tree/main/adrs#vdps-for-distance-variables)
+* [I-ADOPT PLUS](https://github.com/i-adopt/patterns/blob/main/adrs/002-I-ADOPT_PLUS.md)
