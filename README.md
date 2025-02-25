@@ -14,7 +14,7 @@ If you like to suggest new VDPs we invite you to publish a new issue. The I-ADOP
     * [concentration](quantitative/concentration.md)
 * [VDPs for qualitative variables](qualitative/)
     * [biological](qualitatitve/biological.md)
-    * [biological](qualitatitve/boolean.md)
+    * [boolean](qualitatitve/boolean.md)
 
 
 # Decisions
