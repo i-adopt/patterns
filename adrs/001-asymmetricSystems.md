@@ -89,3 +89,41 @@ ex:RatioOfOxygen18toOxygen16
 * **Cons**
   * Requires the ability to use `Constraint`s on `Property`s which is not yet possible within I-Adopt
   * Would still require additional relations to encode the role within the `Constraint` (see Option A)
+
+
+### Option D: Constrain the `ObjectOfInterest`
+
+(after [examples#16](https://github.com/i-adopt/examples/issues/16))
+
+This uses a system as the `ObjectOfInterest` but unlike [Option A](#option-a-combined-objectofinterest) then uses `Constraint`s to connect components to that.
+
+```turtle
+ex:RatioOfOxygen18toOxygen16
+  a                          iadopt:Variable ;
+  iadopt:hasProperty         qudt:Ratio ;
+  iadopt:hasObjectOfInterest ex:Oxygen-18 ;
+  iadopt:hasConstraint [
+    a                 iadopt:Constraint ;
+    iadopt:constrains ex:Oxygen-18-to-Oxygen-16 ;
+    ex:hasComponent      ex:Oxygen-16 ;
+    ex:hasRole           ex:Denominator
+  ] ;
+  iadopt:hasConstraint [
+    a                 iadopt:Constraint ;
+    iadopt:constrains ex:Oxygen-18-to-Oxygen-16 ;
+    ex:hasComponent      ex:Oxygen-18 ;
+    ex:hasRole           ex:Numerator
+  ] .
+
+ex:Oxygen-18-to-Oxygen-16
+  a           iadopt:Entity ;
+  rdfs:label  "Oxygen-18 / Oxygen-16" .
+```
+
+![visual display Option C](./001/optionD.drawio.svg)
+
+* **Pros**:
+  * ?
+* **Cons**
+  * Structurally similar to [Option A](#option-a-combined-objectofinterest) but requires more additional relationships and concepts to describe the structure.
+  * `Variable` and `ObjectOfInterest` are almost identical.
