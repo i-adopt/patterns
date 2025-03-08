@@ -14,7 +14,7 @@ Suggestion on how to add additional description components as extensions of I-AD
 
 ## Considered Options
 
-### Option A: PLUS extension
+### Option A: I-ADOPT extension
 
 ![I-ADOPT Plus](002/I-ADOPT_plus.jpg)
 
@@ -46,7 +46,7 @@ By using ISO 19131 - Data Product Specification (DPS), requirements for products
   * what are the object properties that can be used for these relationships captured in the UML?
     
 ### Option C: Constrain on Property
-Suggestion on how to add additional description components as constrains of the property
+Suggestion on how to add additional description components as constrains of the property. This would allow the description of variables like: concentration of nitrate expressed as nitrogen
 
 This approach would require to model a variable using constrains of the property. 
 
