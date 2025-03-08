@@ -1,4 +1,4 @@
-# I-ADOPT PLUS
+# I-ADOPT extended or a separate model to add other description elements not included in I-ADOPT
 
 * Status: proposed
 * Date: 2025-02-24
