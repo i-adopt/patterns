@@ -55,4 +55,5 @@ This approach would require to model a variable using constrains of the property
 * **Cons**
   * This would require a change of the I-ADOPT ontology.
   * Constrains are not easy to be queried
+  * Why is it needed to put the constraint on the property? - wouldn't it be possible to put it on the ObjectOfInterest (Nitrate; expressed as Nitrogen?)
 
