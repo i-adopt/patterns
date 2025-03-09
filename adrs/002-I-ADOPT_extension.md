@@ -1,4 +1,4 @@
-# I-ADOPT extended or a separate model to add other description elements not included in I-ADOPT
+# Products - Variables with more context beyond I-ADOPT
 
 * Status: proposed
 * Date: 2025-02-24
@@ -31,6 +31,7 @@ In EnvThes we have added for now these extensions:
   * easy to implement
 * **Cons**
   * not standardised which object properties should be used, but we could write guidelines
+  * might lead potentially to an explosion of definitions
 
 ### Option B: Complementing I-ADOPT with ISO 19131 
 
