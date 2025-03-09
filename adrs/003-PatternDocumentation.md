@@ -1,4 +1,4 @@
-# [Documentation of the pattern used]
+# Documentation of the pattern used
 
 * Status: [ proposed ]
 * Date: [2025-03-10]
@@ -14,7 +14,7 @@ The documentation of the pattern used might be useful for associating the logic 
 
 ## Considered Options
 
-### Option A: [Pattern as abstract variable]
+### Option A: Pattern as abstract variable
 
 The pattern is described as an abstract variable and published as a machine-readable representation. It is retrievable via its persistent identifier. A library of patterns is published centrally. See e.g.: 
 
