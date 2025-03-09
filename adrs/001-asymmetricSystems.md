@@ -1,4 +1,4 @@
-# Asymmetric Systems for `ObjectOfInterest`
+# Asymmetric Systems for `ObjectOfInterest` and other Roles of Entities
 
 * Status: proposed
 * Date: 2025-02-23
