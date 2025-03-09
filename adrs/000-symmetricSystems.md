@@ -1,4 +1,4 @@
-# Symmetric Systems for `ObjectOfInterest`
+# Symmetric Systems for `ObjectOfInterest` and other Roles of Entity
 
 * Status: proposed
 * Date: 2025-02-23
