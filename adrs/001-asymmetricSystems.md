@@ -45,6 +45,9 @@ ex:RatioOfOxygen18toOxygen16
   * Possibly consistent with Option A of [symmetric systems](./000-symmetricSystems.md)
 * **Cons**
   * May require a rather large set of custom relations for the roles to represent all possible roles in such cases.
+ 
+Could also be used for fluxes between two environmental compartments: see [Carbon dioxide molar flux between peatland and atmosphere](https://w3id.org/ozcar-theia/c_405693da)
+
 
 ### Option B: Using `ContextObject`
 
