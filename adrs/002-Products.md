@@ -32,6 +32,7 @@ In EnvThes we have added for now these extensions:
 * **Cons**
   * not standardised which object properties should be used, but we could write guidelines
   * might lead potentially to an explosion of definitions
+  * it is no more an I-ADOPT variable, so not clear if it can be modelled as a subconcept of an I-ADOPT variable
 
 ### Option B: Complementing I-ADOPT with ISO 19131 
 
