@@ -18,7 +18,7 @@ pending
 
 The property is constrained with a Constraint to describe that the property has a baseline.
 
-![I-ADOPT Plus](004/baseline.drawio.svg)
+![baseline](004/baseline.drawio.svg)
 
 * **Pros**:
   * to be discussed
