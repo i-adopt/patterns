@@ -18,9 +18,20 @@ pending
 
 The property is constrained with a Constraint to describe that the property has a baseline.
 
-![baseline](./004/baseline.drawio.svg)
+![baseline](https://github.com/i-adopt/patterns/raw/main/adrs/004/baseline.drawio.svg)
 
 * **Pros**:
   * to be discussed
 * **Cons**
   * constraints are too implicit
+ 
+ ### Option B: Using system for the object of interest
+
+The object of interest is represented as a system of two entities where one is the reference. 
+
+![system](https://github.com/i-adopt/patterns/raw/main/adrs/004/systemreference.drawio.svg)
+
+* **Pros**:
+  * in line with the other asymmetric system pattern
+* **Cons**
+  * affords additional object properties
