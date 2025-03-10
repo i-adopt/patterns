@@ -47,15 +47,3 @@ By using ISO 19131 - Data Product Specification (DPS), requirements for products
 * **Cons**
   * what are the object properties that can be used for these relationships captured in the UML?
     
-### Option C: Constraints on Property
-Suggestion on how to add additional description components as constrains of the property. This would allow the description of variables like: concentration of nitrate expressed as nitrogen
-
-This approach would require to model a variable using constrains of the property. 
-
-* **Pros**:
-  * Align it with Entities that can also be constrained in I-ADOPT.
-* **Cons**
-  * This would require a change of the I-ADOPT ontology.
-  * Constrains are not easy to be queried
-  * Why is it needed to put the constraint on the property? - wouldn't it be possible to put it on the ObjectOfInterest (Nitrate; expressed as Nitrogen?)
-
