@@ -21,7 +21,8 @@ If you like to suggest new VDPs we invite you to publish a new issue. The I-ADOP
 
 Some of the patterns are preceded by an extensive discussion. The options discussed along each one's pros and cons as well as the final decisions are documented in [application design records](./adrs/).
 
-* [distance](https://github.com/i-adopt/patterns/tree/main/adrs#vdps-for-distance-variables)
-   * [symmetric Systems](adrs/000-symmetricSystems.md)
-   * [asymmetric Systems](adrs/001-asymmetricSystems.md)
-* [I-ADOPT PLUS](adrs/002-I-ADOPT_PLUS.md)
+* [symmetric Systems](adrs/000-symmetricSystems.md)
+* [asymmetric Systems](adrs/001-asymmetricSystems.md)
+* [Products](adrs/002-Products.md)
+* [Pattern Documentation](adrs/003-PatternDocumentation.md)
+* [Baseline](adrs/004-Baseline.md)
