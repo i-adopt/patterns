@@ -34,4 +34,4 @@ The object of interest is represented as a system of two entities where one is t
 * **Pros**:
   * in line with the other asymmetric system pattern
 * **Cons**
-  * affords additional object properties
+  * requires additional object properties
