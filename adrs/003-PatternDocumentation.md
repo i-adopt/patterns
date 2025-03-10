@@ -1,7 +1,7 @@
 # Documentation of the pattern used
 
-* Status: [ proposed ]
-* Date: [2025-03-10]
+* Status:  proposed
+* Date: 2025-03-10
 * Discussion: 
 
 ## Context
@@ -28,11 +28,21 @@ The pattern is described as an abstract variable and published as a machine-read
 
 ## Considered Options
 
-### Option A: [short title]
+### Option B: Using sub-properties instead of pattern descriptions
 
-*Description of the option*
+The pattern is translated into subproperties, like "hasSolute" for hasObjectOfInterest or "hasSolvent" for hasMatrix
 
 * **Pros**:
-  * *positive implications*
+  * you can use the classical queries
 * **Cons**
-  * *negative implications*
+  * it requires many more object properties
+
+### Option C: Describe in skos:notion the pattern
+
+The pattern is described in the notion field of the Variable as simple text.
+
+* **Pros**:
+  * it is easy to implement
+* **Cons**
+  * it is hard to query
+  * it is not machine-readable
