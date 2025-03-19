@@ -1,0 +1,243 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.1" pages="4">
+  <diagram name="Option A" id="X2PUkvPEIIKqSoPyBa_s">
+    <mxGraphModel dx="610" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YcbdGxsAXaUATbjkP4Gg-1" target="YcbdGxsAXaUATbjkP4Gg-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-4" value="iadopt:hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="YcbdGxsAXaUATbjkP4Gg-3" vertex="1" connectable="0">
+          <mxGeometry x="0.2727" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.174;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YcbdGxsAXaUATbjkP4Gg-1" target="YcbdGxsAXaUATbjkP4Gg-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="99" />
+            </Array>
+            <mxPoint x="460" y="139.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-7" value="iadopt:hasObjectOfInterest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="YcbdGxsAXaUATbjkP4Gg-6" vertex="1" connectable="0">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-1" value="Temperature of Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-2" value="Temperature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="600" y="140" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YcbdGxsAXaUATbjkP4Gg-9" value="Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="480" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Option B" id="4ybOZSJburB2DF7oYV2U">
+    <mxGraphModel dx="925" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="ZfVp6crgDHaHvn7UMfFf-0" />
+        <mxCell id="ZfVp6crgDHaHvn7UMfFf-1" parent="ZfVp6crgDHaHvn7UMfFf-0" />
+        <mxCell id="U7vuExFQxLmTpThBeIag-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZfVp6crgDHaHvn7UMfFf-1" source="U7vuExFQxLmTpThBeIag-4" target="U7vuExFQxLmTpThBeIag-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-1" value="iadopt:hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="U7vuExFQxLmTpThBeIag-0">
+          <mxGeometry x="0.2727" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.108;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="ZfVp6crgDHaHvn7UMfFf-1" source="U7vuExFQxLmTpThBeIag-4" target="U7vuExFQxLmTpThBeIag-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="119" y="100" />
+              <mxPoint x="120" y="100" />
+            </Array>
+            <mxPoint x="180" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-3" value="iadopt:hasObjectOfInterest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="U7vuExFQxLmTpThBeIag-2">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-4" value="Daily Average Temperature of Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ZfVp6crgDHaHvn7UMfFf-1">
+          <mxGeometry x="80" y="80" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-5" value="Temperature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ZfVp6crgDHaHvn7UMfFf-1">
+          <mxGeometry x="320" y="140" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-6" value="Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ZfVp6crgDHaHvn7UMfFf-1">
+          <mxGeometry x="80" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.108;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="ZfVp6crgDHaHvn7UMfFf-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="239.49" y="100" />
+              <mxPoint x="240.49" y="100" />
+            </Array>
+            <mxPoint x="239.49" y="99" as="sourcePoint" />
+            <mxPoint x="240.49" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-9" value="iadopt:hasConstraint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="U7vuExFQxLmTpThBeIag-8">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ZfVp6crgDHaHvn7UMfFf-1" source="U7vuExFQxLmTpThBeIag-14" target="U7vuExFQxLmTpThBeIag-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-13" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;iadopt:constrains&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U7vuExFQxLmTpThBeIag-12">
+          <mxGeometry x="0.0044" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7vuExFQxLmTpThBeIag-14" value="Daily Average" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZfVp6crgDHaHvn7UMfFf-1">
+          <mxGeometry x="200" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Option C" id="hJGOecHrZZwNRh-nTygM">
+    <mxGraphModel dx="735" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="MIW9wAPj7X61GESU4Yh5-0" />
+        <mxCell id="MIW9wAPj7X61GESU4Yh5-1" parent="MIW9wAPj7X61GESU4Yh5-0" />
+        <mxCell id="R5cImfDe8mn5p8DJor_J-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.873;exitY=0.991;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="MIW9wAPj7X61GESU4Yh5-1" source="R5cImfDe8mn5p8DJor_J-14" target="R5cImfDe8mn5p8DJor_J-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-11" value="iadopt:hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="R5cImfDe8mn5p8DJor_J-10" vertex="1" connectable="0">
+          <mxGeometry x="0.2727" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.108;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="MIW9wAPj7X61GESU4Yh5-1" source="R5cImfDe8mn5p8DJor_J-14" target="R5cImfDe8mn5p8DJor_J-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="109" />
+            </Array>
+            <mxPoint x="470" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-13" value="iadopt:hasObjectOfInterest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="R5cImfDe8mn5p8DJor_J-12" vertex="1" connectable="0">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-15" value="Temperature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="MIW9wAPj7X61GESU4Yh5-1" vertex="1">
+          <mxGeometry x="640" y="150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-16" value="Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="MIW9wAPj7X61GESU4Yh5-1" vertex="1">
+          <mxGeometry x="280" y="150" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.108;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="MIW9wAPj7X61GESU4Yh5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="559.05" y="111" />
+              <mxPoint x="560.05" y="111" />
+            </Array>
+            <mxPoint x="559.05" y="110" as="sourcePoint" />
+            <mxPoint x="560.05" y="151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-19" value="iadopt:hasModifier" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" parent="R5cImfDe8mn5p8DJor_J-18" vertex="1" connectable="0">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-20" value="Average" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="MIW9wAPj7X61GESU4Yh5-1" vertex="1">
+          <mxGeometry x="520" y="150" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K7o1aMCEvMDt0v7MRR-U-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="MIW9wAPj7X61GESU4Yh5-1" source="K7o1aMCEvMDt0v7MRR-U-2" target="R5cImfDe8mn5p8DJor_J-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="479" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7o1aMCEvMDt0v7MRR-U-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;iadopt:constrains&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K7o1aMCEvMDt0v7MRR-U-0">
+          <mxGeometry x="-0.0067" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7o1aMCEvMDt0v7MRR-U-2" value="Daily" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="MIW9wAPj7X61GESU4Yh5-1">
+          <mxGeometry x="399.99999999999994" y="150" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K7o1aMCEvMDt0v7MRR-U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.108;exitY=0.95;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="MIW9wAPj7X61GESU4Yh5-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439.48999999999995" y="110" />
+              <mxPoint x="440.48999999999995" y="110" />
+            </Array>
+            <mxPoint x="439.48999999999995" y="109" as="sourcePoint" />
+            <mxPoint x="440.48999999999995" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7o1aMCEvMDt0v7MRR-U-4" value="iadopt:hasConstraint" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="K7o1aMCEvMDt0v7MRR-U-3">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5cImfDe8mn5p8DJor_J-14" value="Daily Average Temperature of Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="MIW9wAPj7X61GESU4Yh5-1" vertex="1">
+          <mxGeometry x="280" y="90" width="450" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Option D" id="EpZvIyu4YvZkvlqTJgBH">
+    <mxGraphModel dx="652" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="P3YjhW1d99tAIaGZeHhT-0" />
+        <mxCell id="P3YjhW1d99tAIaGZeHhT-1" parent="P3YjhW1d99tAIaGZeHhT-0" />
+        <mxCell id="hDOZmMLsChNNfbFp0dei-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.719;exitY=0.955;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="P3YjhW1d99tAIaGZeHhT-1" source="hDOZmMLsChNNfbFp0dei-4" target="hDOZmMLsChNNfbFp0dei-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-1" value="iadopt:hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="hDOZmMLsChNNfbFp0dei-0">
+          <mxGeometry x="0.2727" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.148;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P3YjhW1d99tAIaGZeHhT-1" source="hDOZmMLsChNNfbFp0dei-4" target="hDOZmMLsChNNfbFp0dei-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="99" />
+            </Array>
+            <mxPoint x="460" y="139.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-3" value="iadopt:hasObjectOfInterest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="hDOZmMLsChNNfbFp0dei-2">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-4" value="Daily Average Temperature of Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="P3YjhW1d99tAIaGZeHhT-1">
+          <mxGeometry x="480" y="80" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-5" value="Daily Mean Temperature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="P3YjhW1d99tAIaGZeHhT-1">
+          <mxGeometry x="600" y="140" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hDOZmMLsChNNfbFp0dei-6" value="Lake" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="P3YjhW1d99tAIaGZeHhT-1">
+          <mxGeometry x="480" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
