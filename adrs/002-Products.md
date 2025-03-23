@@ -41,7 +41,7 @@ See an example in EnvThes [here](http://vocabs.lter-europe.net/EnvThes/30282):
 
 Here we add these additional object properties in another concept (I-ADOPT PLUS) that links to an I-ADOPT Variable and additional components.
 
-![I-ADOPT Plus](002/option002A.drawio.svg)
+![I-ADOPT Plus](002/option002B.drawio.svg)
 
 * **Pros**:
   * easy to implement
