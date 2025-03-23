@@ -22,8 +22,8 @@ This approach would require to model a variable as a child of an existing I-ADOP
 In EnvThes we have added for now these extensions:
 * https://w3id.org/env/puv#statistic for adding statistical measures
 * https://w3id.org/env/puv#usesMethod for adding a method
+* http://www.w3.org/ns/sosa/madeBySensor for adding the instrument and potentially, but not recommended
 * https://w3id.org/env/puv#uom for adding the used unit
-* http://www.w3.org/ns/sosa/madeBySensor for adding the instrument
 
 ![I-ADOPT PLUS implemented in Envthes](002/EnvThes_I-ADOPT_plus.jpg)
 
@@ -31,8 +31,9 @@ In EnvThes we have added for now these extensions:
   * easy to implement
 * **Cons**
   * not standardised which object properties should be used, but we could write guidelines
-  * might lead potentially to an explosion of definitions
-  * it is no more an I-ADOPT variable, so not clear if it can be modelled as a subconcept of an I-ADOPT variable
+  * might lead potentially to an explosion of descriptions (especially true for units!)
+  * method is part of the observation procedure and not intended to be included in I-ADOPT
+  * semantically it is no more an I-ADOPT variable, so not clear if it can be modelled as a subconcept of an I-ADOPT variable in SKOS
 
 ### Option B: Complementing I-ADOPT with ISO 19131 
 
