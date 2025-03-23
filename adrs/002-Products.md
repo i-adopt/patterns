@@ -16,7 +16,7 @@ Suggestion on how to add additional description components as extensions of I-AD
 
 ### Option A: I-ADOPT extension
 
-![I-ADOPT Plus](002/option002A.drawio.svg)
+![I-ADOPT Plus](002/002A.drawio.svg)
 
 This approach would require to model a variable as a child of an existing I-ADOPT Variable as demonstrated in this EnvThes example [here](http://vocabs.lter-europe.net/EnvThes/30282). It is not possible to add these extensions (like statistical measures) as constraints, because these apply to the whole variable. 
 In EnvThes we have added for now these extensions:
