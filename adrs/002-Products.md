@@ -44,7 +44,6 @@ Here we add these additional object properties in another concept (I-ADOPT PLUS)
 ![I-ADOPT Plus](002/option002B.drawio.svg)
 
 * **Pros**:
-  * easy to implement
   * keeps I-ADOPT clean from other information
 * **Cons**
   * not standardised which object properties should be used, but we could write guidelines
