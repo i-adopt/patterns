@@ -1,4 +1,4 @@
-# Documentation of the pattern used
+# Documentation of the used Patterns
 
 * Status:  proposed
 * Date: 2025-03-10

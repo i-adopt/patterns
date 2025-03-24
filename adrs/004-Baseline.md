@@ -1,4 +1,4 @@
-# Baseline
+# Baseline of Observation
 
 * Status: proposed
 * Date: 2025-03-10
