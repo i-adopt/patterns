@@ -25,10 +25,33 @@ See e.g.:
 
 * **Pros**:
   * helpful for the service development, as pattern is specifically stated
-  * helpfuk to implementers to understand how this was done
+  * helpful for other implementers to understand how this was done
+  * any variable description can be associated to a specific pattern
+  * it is helpful to create automatic mappings between patterns
 * **Cons**
   * additional object property needed
 
+#### Option A1: Linking to an abstract variable with I-ADOPT
+
+Option A requires to provide an additional object property. This option would need an additional I-ADOPT object property
+
+![description option A1](./003/option003A1.drawio.svg)
+
+* **Pros**:
+  * it is easy findable and reusable for developers and other implementers
+* **Cons**
+  * additional object property needed
+ 
+ #### Option A2: Linking to an abstract variable outside I-ADOPT
+
+Option A requires to provide an additional object property. This option would need an additional RDF statement that links the variable with the pattern
+
+![description option A2](./003/option003A2.drawio.svg)
+
+* **Pros**:
+  * we do not need to add any additional property but could reuse external object properties
+* **Cons**
+  * these linkage is hard to find and reuse
 
 ### Option B: Using sub-properties instead of pattern descriptions
 
