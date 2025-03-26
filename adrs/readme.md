@@ -8,4 +8,5 @@
 * [006 - Statistical Modifiers](006-Modifiers.md)
 * [007 - Constraints vs. Subconcepts](007-ConstraintVsSubconcept.md)
 * [008 - Hierarchy of Variables](008-HierarchiesOfVariables.md)
+* [009 - Constraints on Properties](009-PropertyConstraints.md)
 
