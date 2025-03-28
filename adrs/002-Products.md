@@ -60,7 +60,7 @@ Here we add these additional object properties in another concept (I-ADOPT PLUS)
 
 ### Option C: Complementing I-ADOPT with ISO 19131 
 
-By using ISO 19131 - Data Product Specification (DPS), requirements for products description can be taken into account.
+By using ISO 19131 - Data Product Specification (DPS), requirements for products description can be taken into account. In this case the product description links to the I-ADOPT variable. This can be combined with Option A1.
 
 ![Product](002/Product.jpg)
 
