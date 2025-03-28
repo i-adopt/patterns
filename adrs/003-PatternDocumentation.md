@@ -71,3 +71,14 @@ The pattern is described in the notion field of the `Variable` as simple text.
 * **Cons**
   * Hard to automatically use in a query
   * Not machine-readable
+
+### Option D: No documentation of the patterns used
+
+Used patterns are not explicitly documented in a recommended way.
+
+* **Pros**:
+  * Less overhead for documentation that is not within the core scope of I-Adopt
+  * Use of this documentation is not necessary, as patterns are deterministic in their application
+* **Cons**
+  * Less information for automated systems to create similar `Variable`s
+ 
