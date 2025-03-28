@@ -44,7 +44,6 @@ See an example in EnvThes [here](http://vocabs.lter-europe.net/EnvThes/30282):
   * not standardised which object properties should be used, but we could write guidelines
   * might lead potentially to an explosion of descriptions (especially true for units!)
   * method is part of the observation procedure and not intended to be included in I-ADOPT
-  * this requires a major change in the I-ADOPT ontology
 
 ### Option B: Creating a concept on top of I-ADOPT (I-ADOPT PLUS):
 
