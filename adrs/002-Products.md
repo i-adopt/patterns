@@ -16,14 +16,23 @@ Suggestion on how to add additional description components as extensions of I-AD
 
 ### Option A: Extending I-ADOPT 
 
+#### Option A1: Extending I-ADOPT for modifier only
+This approach would require to extend I-ADOPT with an additional object property for statistical modifiers and an additional class for modifiers (could be a controlled list, we provide) which should only be used to indicate the aggregation value as provided by sensors to allow to include this information to the variable. It is not possible to add these extensions (like statistical measures) as constraints, because these apply to the whole variable. 
+
 ![I-ADOPT Plus](002/002A.drawio.svg)
 
-This approach would require to extend I-ADOPT with additional object properties to allow more information to be attached. It is not possible to add these extensions (like statistical measures) as constraints, because these apply to the whole variable. 
-In EnvThes we have added for now these extensions:
+* **Pros**:
+  * easy to implement
+* **Cons**
+  * modifiers could be misused to representy any postprocessing aggregation after the observation, which is not the scope of I-ADOPT
+  * a new class and a new property would be required
+ 
+#### Option A2: Extending I-ADOPT with external object properties
+We could use object properties from other ontologies like PUV or SOSA, see
 * https://w3id.org/env/puv#statistic for adding statistical measures
 * https://w3id.org/env/puv#usesMethod for adding a method
-* http://www.w3.org/ns/sosa/madeBySensor for adding the instrument and potentially, but not recommended
-* https://w3id.org/env/puv#uom for adding the used unit
+* http://www.w3.org/ns/sosa/madeBySensor for adding the instrument
+* https://w3id.org/env/puv#uom for adding the used unit 
 
 See an example in EnvThes [here](http://vocabs.lter-europe.net/EnvThes/30282):
 
