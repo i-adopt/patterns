@@ -7,14 +7,14 @@
 
 ## Context
 
-Some observable properties can not associated with a single `ObjectOfInterest` but pertain to multiple ones and describe their relationship.
+Some observable properties can not be associated with a single `ObjectOfInterest` but pertain to multiple ones and describe their relationship.
 Here, we consider cases where there are no specific roles for the involved participants or those can be exchanged without affecting the measurement itself.
 
 As an example consider the distance of planets to their central star.
 In this case the distance is a symmetric property of a system consisting out of a planet and the central star.
 Further, the distance from a planet to its central star is the same property as the distance of a central star to its planet (for most intents and purposes).
 
-This is different from [asymmetric systems](./001-asymemetricSystems.md) where the role of involved objects can not be freely exchanged.
+This is different from [asymmetric systems](./001-asymmetricSystems.md) where the role of involved objects can not be freely exchanged.
 
 ## Decision
 
