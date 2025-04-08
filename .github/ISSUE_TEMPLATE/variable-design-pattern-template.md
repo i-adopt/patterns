@@ -26,3 +26,7 @@ assignees: ''
 *Constraint abstract entity or property*:
 
 *Dimension Information*:
+
+*Link to nanopublication*:
+
+*Link to shacle*:
