@@ -7,15 +7,6 @@ assignees: ''
 
 ---
 
----
-name: Variable Design Pattern Template
-about: This templates helps to structure the content to be added for a pattern description.
-title: Pattern Label
-labels: ''
-assignees: ''
-
----
-
 *PID of Pattern*:
 
 *Pattern Description*:
