@@ -19,7 +19,7 @@ assignees: ''
 
 *Abstract entity role Context Object (label)*:
 
-*constrains subproperty (label)*.
+*constrains subproperty (label)*:
 
 *Abstract constraint (label)*:
 
