@@ -29,4 +29,4 @@ assignees: ''
 
 *Link to nanopublication*:
 
-*Link to shacle*:
+*Link to SHACL*:
