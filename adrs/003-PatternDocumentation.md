@@ -72,13 +72,17 @@ The pattern is described in the notion field of the `Variable` as simple text.
   * Hard to automatically use in a query
   * Not machine-readable
 
-### Option D: No documentation of the patterns used
+### Option E: Use VariableSet for Patterns
 
-Used patterns are not explicitly documented in a recommended way.
+Used patterns can be documented via VariableSets.
 
 * **Pros**:
-  * Less overhead for documentation that is not within the core scope of I-Adopt
-  * Use of this documentation is not necessary, as patterns are deterministic in their application
+  * No need to introduce an additional class
+  * A patterns is an abstracted variable, so variableset might fit well
 * **Cons**
-  * Less information for automated systems to create similar `Variable`s
+  * A pattern requires specific instances for object of interest and matrix
+  * A pattern has another purpose than VariableSets
+ 
+
+ 
  
