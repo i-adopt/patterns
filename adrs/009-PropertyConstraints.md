@@ -1,7 +1,7 @@
 # Constraints of Property or not
 
-* Status: proposed
-* Date: 2025-03-25
+* Status: decision taken
+* Date: 2025-05-03
 * Discussion:
 
 ## Context
@@ -11,7 +11,7 @@ The I-ADOPT Ontology does not allow to use `Constraint` on `Property` but we got
 
 ## Decision
 
-*pending*
+We decided to go for Option B: to be able to constrain all description components, including properties
 
 ## Considered Options
 
