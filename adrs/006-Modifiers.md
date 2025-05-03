@@ -1,7 +1,7 @@
 # Statistical Modifiers
 
-* Status: proposed
-* Date: 2025-03-11
+* Status: Decision taken
+* Date: 2025-05-03
 * Discussion:
 
 ## Context
@@ -12,7 +12,7 @@ For example, this might declare a `Variable` to be the minimum, maximum, or aver
 
 ## Decision
 
-*pending*
+We decided to go for option C: Statistical Modifier as a new I-ADOPT class and hasStatisticalModifier as a new object property
 
 ## Considered Options
 
