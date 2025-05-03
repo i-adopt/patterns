@@ -1,7 +1,7 @@
 # Hierarchy of Variables
 
-* Status: proposed
-* Date: 2025-03-18
+* Status: Decision taken
+* Date: 2025-05-03
 * Discussion:
 
 ## Context
@@ -16,7 +16,7 @@ While some of these relations can be extracted from the corresponding descriptio
 
 ## Decision
 
-*pending*
+We decided to go for option A: skos:broader
 
 ## Considered Options
 
