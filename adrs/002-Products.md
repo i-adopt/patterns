@@ -10,7 +10,7 @@ Suggestion on how to add additional description components as extensions of I-AD
 
 ## Decision
 
-*pending*
+We decided to go for option A1 - to only include a statistical modifier in the I-ADOPT ontology, but everything else remains outside the ontology. 
 
 ## Considered Options
 
