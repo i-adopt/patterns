@@ -1,6 +1,6 @@
 # Products - Variables with more context beyond I-ADOPT
 
-* Status: decided
+* Status: Decision taken
 * Date: 2025-05-03
 * Discussion: [examples #13](https://github.com/i-adopt/examples/issues/13)
 
