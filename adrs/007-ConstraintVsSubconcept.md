@@ -1,7 +1,7 @@
 # Constraints vs. Subconcepts
 
-* Status: proposed
-* Date: 2025-03-18
+* Status: Decision taken
+* Date: 2025-05-03
 * Discussion:
 
 ## Context
@@ -11,7 +11,7 @@ Without guidelines this can lead to two `Variable`s using the same terminologies
 
 ## Decision
 
-*pending*
+We decided to go for option C: Formalize translation with a preference on generalized plus constraint were possible. 
 
 ## Considered Options
 
