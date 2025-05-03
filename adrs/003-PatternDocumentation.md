@@ -72,7 +72,7 @@ The pattern is described in the notion field of the `Variable` as simple text.
   * Hard to automatically use in a query
   * Not machine-readable
 
-### Option E: Use VariableSet for Patterns
+### Option D: Use VariableSet for Patterns
 
 Used patterns can be documented via VariableSets.
 
