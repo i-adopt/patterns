@@ -1,6 +1,6 @@
 # Baseline of Observation
 
-* Status: proposed
+* Status: decision taken
 * Date: 2025-05-03
 * Discussion:
 
