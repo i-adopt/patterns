@@ -10,7 +10,7 @@ It might be to precise how the property should be interpreted, for example when 
 
 ## Decision
 
-We decided to go for Option A: to be able to constrain all description components, including properties
+We decided to go for Option A: for baselines we prefer to constrain the property and not go for a system solution.
 
 ## Considered Options
 
