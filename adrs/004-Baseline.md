@@ -1,7 +1,7 @@
 # Baseline of Observation
 
 * Status: proposed
-* Date: 2025-03-10
+* Date: 2025-05-03
 * Discussion:
 
 ## Context
@@ -10,7 +10,7 @@ It might be to precise how the property should be interpreted, for example when 
 
 ## Decision
 
-*pending*
+We decided to go for Option A: to be able to constrain all description components, including properties
 
 ## Considered Options
 
