@@ -88,3 +88,28 @@ ex:DistanceOfPlanetAndStar
   * Requires more mental effort to consider a property of the relation between two or more objects as the property of a (virtual) object connecting them.
     * would further require describing the virtual object (ie., describe its constituents), effectively making this quite similar to Option A
   * Might need a switch of `Property` (e.g., from `Distance` to `Length`)
+
+### Option D: Add Top Level Properties
+
+Similar to Option A but removing the intermediate node representing the system in its entirety.
+
+Notes:
+* possibly, `iadopt:hasObjectOfInterestPart` etc. are sub-properties of `iadopt:hasObjectOfInterest` in this case. However, this would have implications on cardinalities.
+* The use of "system-properties" replaces the use of `iop:hasObjectOfInterest` or `iop:hasMatrix` depending on which context they are used in.
+
+```turtle
+ex:DistanceOfPlanetAndStar
+  a                                 iadopt:Variable ;
+  iadopt:hasProperty                qudt:Length ;
+  iadopt:hasObjectOfInterestPart    ex:Planet, ex:Star .
+```
+
+![visual display Option D](./000/optionD.drawio.svg)
+
+* **Pros**:
+  * Flat structure, does not need intermediate objects (systems)
+  * does not require new system classes/instances
+  * (Consistent with [Option E in ADR 000](./000-symmetricSystems.md#option-d-add-top-level-properties))
+* **Cons**
+  * Requires to create equivalent properties for each role.
+  * If applied to `iadopt:ContextObject`s, only allows for at most one

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.0.3" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.0.3" pages="4">
   <diagram name="Option A" id="X2PUkvPEIIKqSoPyBa_s">
     <mxGraphModel dx="896" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
@@ -167,6 +167,62 @@
         </mxCell>
         <mxCell id="MIW9wAPj7X61GESU4Yh5-8" value="Path between Planet and Star" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="MIW9wAPj7X61GESU4Yh5-1">
           <mxGeometry x="360" y="140" width="190" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Option D" id="xxNIpzRcqk3w21KmkDW_">
+    <mxGraphModel dx="679" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-0" />
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-1" parent="qgLO6y1uMl0OKkPErMcH-0" />
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qgLO6y1uMl0OKkPErMcH-1" source="qgLO6y1uMl0OKkPErMcH-6" target="qgLO6y1uMl0OKkPErMcH-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-3" value="iadopt:hasProperty" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="qgLO6y1uMl0OKkPErMcH-2">
+          <mxGeometry x="0.2727" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.112;exitY=0.85;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="qgLO6y1uMl0OKkPErMcH-1" source="qgLO6y1uMl0OKkPErMcH-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="390" y="100" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-5" value="iadopt:hasObjectOfInterestPart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="qgLO6y1uMl0OKkPErMcH-4">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-7" value="Distance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="qgLO6y1uMl0OKkPErMcH-1">
+          <mxGeometry x="600" y="140" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-12" value="Planet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qgLO6y1uMl0OKkPErMcH-1">
+          <mxGeometry x="360" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-13" value="Star" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="qgLO6y1uMl0OKkPErMcH-1">
+          <mxGeometry x="480" y="140" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sCQwkxRFUT7xcmplkSA3-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.112;exitY=0.85;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="qgLO6y1uMl0OKkPErMcH-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="519.83" y="97" as="sourcePoint" />
+            <mxPoint x="519.83" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCQwkxRFUT7xcmplkSA3-1" value="iadopt:hasObjectOfInterestPart" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="sCQwkxRFUT7xcmplkSA3-0">
+          <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qgLO6y1uMl0OKkPErMcH-6" value="Distance between Planet and Central Star" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="qgLO6y1uMl0OKkPErMcH-1">
+          <mxGeometry x="360" y="80" width="360" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

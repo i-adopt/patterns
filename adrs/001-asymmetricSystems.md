@@ -45,7 +45,7 @@ ex:RatioOfOxygen18toOxygen16
   * Possibly consistent with Option A of [symmetric systems](./000-symmetricSystems.md)
 * **Cons**
   * May require a rather large set of custom relations for the roles to represent all possible roles in such cases.
- 
+
 Could also be used for fluxes between two environmental compartments: see [Carbon dioxide molar flux between peatland and atmosphere](https://w3id.org/ozcar-theia/c_405693da)
 
 
@@ -130,3 +130,29 @@ ex:Oxygen-18-to-Oxygen-16
 * **Cons**
   * Structurally similar to [Option A](#option-a-combined-objectofinterest) but requires more additional relationships and concepts to describe the structure.
   * `Variable` and `ObjectOfInterest` are almost identical.
+
+### Option E: Add Top Level Properties
+
+Similar to Option A but removing the intermediate node representing the system in its entirety.
+
+Notes:
+* possibly, `iadopt:hasObjectOfInterestNumerator` etc. are sub-properties of `iadopt:hasObjectOfInterest` in this case. However, this would have implications on cardinalities.
+* The use of "system-properties" replaces the use of `iop:hasObjectOfInterest` or `iop:hasMatrix` depending on which context they are used in.
+
+```turtle
+ex:DistanceOfPlanetAndStar
+  a                                     iadopt:Variable ;
+  iadopt:hasProperty                    qudt:Length ;
+  iadopt:hasObjectOfInterestNumerator   ex:Oxygen-18 ;
+  iadopt:hasObjectOfInterestDenominator ex:Oxygen-16 .
+```
+
+![visual display Option E](./001/optionE.drawio.svg)
+
+* **Pros**:
+  * Flat structure, does not need intermediate objects (systems)
+  * does not require new system classes/instances
+  * (Consistent with [Option D in ADR 001](./001-asymmetricSystems.md#option-e-add-top-level-properties))
+* **Cons**
+  * Requires to create equivalent properties for each role.
+  * If applied to `iadopt:ContextObject`s, only allows for at most one
