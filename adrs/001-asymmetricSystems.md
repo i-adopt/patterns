@@ -18,7 +18,7 @@ This is different from [symmetric systems](./000-symmetricSystems.md) where the 
 
 ## Decision
 
-*pending*
+We decided to fo for Option A, using the Asymmetric Systems concept. 
 
 ## Considered Options
 
