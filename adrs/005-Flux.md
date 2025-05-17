@@ -16,7 +16,7 @@ Decision here is about whether those two kinds of flux/flow should follow the sa
 
 ## Decision
 
-*pending*
+We decided to go for Option A, using the system concept and the same pattern for all flux variables
 
 ## Considered Options
 
