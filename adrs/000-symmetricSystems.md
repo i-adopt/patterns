@@ -3,7 +3,7 @@
 * Status: proposed
 * Date: 2025-02-23
 * Discussion:
-  * [examples #14](https://github.com/i-adopt/examples/issues/14)
+* [examples #14](https://github.com/i-adopt/examples/issues/14)
 
 ## Context
 
@@ -18,7 +18,7 @@ This is different from [asymmetric systems](./001-asymmetricSystems.md) where th
 
 ## Decision
 
-*pending*
+We decided to go for Option A, using a new symmetric system class
 
 ## Considered Options
 
