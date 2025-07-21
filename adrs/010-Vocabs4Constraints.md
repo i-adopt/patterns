@@ -19,22 +19,17 @@ pending
 
 ### Option A: Using a separate relation (iop:hasConstraintType) to link to the generic concept
 
- ex:SickChildTemperature iop:hasConstraint [ 
-     a iop:Constraint ; 
-     iop:hasConstraintType sio:Sick ;
-     iop:constrains ex:Child
- ] .
+<img width="303" height="96" alt="image" src="https://github.com/user-attachments/assets/0df6253e-43db-4f09-be65-3d33f331e541" />
+
 * **Pros**:
   * Makes it possible to reuse a concept from a semantic resource ([sio](http://semanticscience.org/resource/SIO_000954) in this case)
 * **Cons**
   * requires a new relation and a new class, which is not necessary
 
 ### Option B: Using rdfs:subClassOf instead: 
- ex:SickChildTemperature iop:hasConstraint [ 
-     a iop:Constraint ; 
-     rdfs:subClassOf sio:Sick ;
-     iop:constrains ex:Child
- ] .
+
+<img width="303" height="87" alt="image" src="https://github.com/user-attachments/assets/72c67fdb-24fd-4e2a-b10d-3ec1a18de86a" />
+
 
 * **Pros**:
   * Makes it possible to reuse a concept from a semantic resource ([sio](http://semanticscience.org/resource/SIO_000954) in this case)
@@ -42,10 +37,9 @@ pending
   * it adds complexity
 
 ### Option C: Using rdf:type and inherit from two classes
- ex:SickChildTemperature iop:hasConstraint [ 
-     a iop:Constraint, sio:Sick ;
-     iop:constrains ex:Child
- ] .
+
+<img width="296" height="73" alt="image" src="https://github.com/user-attachments/assets/182ad632-81b3-48d0-8c5d-90aa29ed071b" />
+
 
 * **Pros**:
   * Natural way to describe is of type without having to introduce a new relation
