@@ -7,9 +7,20 @@
 
 ## Context
 
-The use of vocabulary terms for Constraints in Variable descriptions was never fully defined. A Constraint must be defined by targeting a description component. But if you use a vocabulary term for this Constraint it cannot be used in other variables. So a generic class from a semantic resource cannot be used directly for the constraint.
+The use of vocabulary terms for Constraints in Variable descriptions was never fully defined.
+A Constraint has to be defined by linking it to a Variable component.
+When directly reusing a vocabulary term here, that term cannot be used in other variables:
+The association to the Variable and component cannot be reliably reconstructed.
+```turtle
+ex:SickChildTemperature iop:hasConstraint sio:Sick .
 
-First of all the constraint should be modelled as a separate node (named or blank) for each Constraint and Variable. To reuse a generic concept we have three options. The example we are using to illustrate the solutions is: Temperature of a sick child. 
+sio:Sick iop:constrains ex:Child .
+```
+
+So in consequence, Constraints should be modelled as separate nodes (named or blank) for each Constraint and Variable.
+Here, several options are possible.
+This is independent of Constraint that, e.g., restrict temporal or spatial coverage.
+Those have to restricted differently.
 
 ## Decision
 
@@ -17,33 +28,52 @@ pending
 
 ## Considered Options
 
-### Option A: Using a separate relation (iop:hasConstraintType) to link to the generic concept
+### Option A: Using a separate relation (`iop:hasConstraintType`) to link to the generic concept
 
-<img width="303" height="96" alt="image" src="https://github.com/user-attachments/assets/0df6253e-43db-4f09-be65-3d33f331e541" />
-
-* **Pros**:
-  * Makes it possible to reuse a concept from a semantic resource ([sio](http://semanticscience.org/resource/SIO_000954) in this case)
-* **Cons**
-  * requires a new relation and a new class, which is not necessary
-
-### Option B: Using rdfs:subClassOf instead: 
-
-<img width="303" height="87" alt="image" src="https://github.com/user-attachments/assets/72c67fdb-24fd-4e2a-b10d-3ec1a18de86a" />
-
+```turtle
+ex:SickChildTemperature iop:hasConstraint [
+  a iop:Constraint ;
+  iop:hasConstraintType sio:Sick ;
+  iop:constrains ex:Child
+] .
+```
 
 * **Pros**:
-  * Makes it possible to reuse a concept from a semantic resource ([sio](http://semanticscience.org/resource/SIO_000954) in this case)
+  * enables linking to a concept from a semantic resource
+  * clear separation between I-Adopt relations and common RDF-/OWL-constructs (not overloading existing relations)
 * **Cons**
-  * it adds complexity
+  * requires a new relation
+  * replicates the semantics of `rdf:type` using a custom relation (applied in a restricted setting though)
 
-### Option C: Using rdf:type and inherit from two classes
 
-<img width="296" height="73" alt="image" src="https://github.com/user-attachments/assets/182ad632-81b3-48d0-8c5d-90aa29ed071b" />
+### Option B: Using `rdfs:subClassOf`
 
+```turtle
+ex:SickChildTemperature iop:hasConstraint [
+  a iop:Constraint ;
+  rdfs:subClassOf sio:Sick ;
+  iop:constrains ex:Child
+] .
+```
 
 * **Pros**:
-  * Natural way to describe is of type without having to introduce a new relation
+  * enables linking to a concept from a semantic resource
+  * closest to the "direct use of generic concept" approach
 * **Cons**
-  * none
+  * mixes instance and class relations within a single concept
 
 
+### Option C: Using `rdf:type`
+
+```turtle
+ex:SickChildTemperature iop:hasConstraint [
+  a iop:Constraint, sio:Sick ;
+  iop:constrains ex:Child
+] .
+```
+
+* **Pros**:
+  * enables linking to a concept from a semantic resource
+  * reusing the standard semantics of `rdf:type`
+* **Cons**
+  * ?
