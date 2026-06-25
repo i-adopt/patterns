@@ -9,4 +9,5 @@
 * [007 - Constraints vs. Subconcepts](007-ConstraintVsSubconcept.md)
 * [008 - Hierarchy of Variables](008-HierarchiesOfVariables.md)
 * [009 - Constraints on Properties](009-PropertyConstraints.md)
-
+* [010 - Use of Vocabulary terms for Constraints in Variable descriptions](010-Vocabs4Constraints.md)
+* [011 - Integration of Units](011-units.md)
